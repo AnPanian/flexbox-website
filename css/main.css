@@ -102,11 +102,12 @@ html {
 }
 
 body {
-  font-family: 'Source Sans Pro', sans-serif;
-  padding: 0 2em;
-  font-size: 1.25em;
-  height: 100%;
-  color: #fff;
+    font-family: Open Sans Condensed;
+    padding: 0 2em;
+    font-size: 1.25em;
+    height: 100%;
+    color: #fff;
+    background-image: url('../img/back.jpg');
 }
 
 header,
@@ -117,9 +118,13 @@ footer {
 }
 
 main {
-  background-color: #ccc;
+  background-color: #ccc transparent;
   height: 250px;
   width: 100%;
+  font-size: 3.2em;
+}
+header {
+    font-family: audiowide;
 }
 
 header,
@@ -134,13 +139,13 @@ main {
 #div-1,
 #div-2,
 #div-3 {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  color: #fff;
-  line-height: 1.5em;
-  font-size: 1.25em;
-  height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    line-height: 1.5em;
+    font-size: 1.25em;
+    height: auto;
 }
 
 .wrapper span {
@@ -161,12 +166,17 @@ main {
     color: #fff;
     line-height: 1.5em;
     font-size: 1.6em;
-    background-color: #f16059;
+    background-color: #43809c;
     width: 30%;
     height: 200px;
     display: flex;
     justify-content: center;
-    
+    padding: .5em;
+}
+footer {
+    font-family: audiowide;
+    font-weight: 200;
+    font-size: .45em
 }
 
 /* ==========================================================================
